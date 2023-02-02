@@ -2,7 +2,7 @@ extends Node # instancia a classe Node2D
 
 var playing = true # indica se o usuário está jogando ou parado (como um bool, mas representado com inteiros)
 var player_score = 0 # score do usuário, incrementada a cada coluna superada
-var velocity = 1.5 # "velocidade" de movimentação do dragão (decremento da posição do cenário)
+var velocity = 3 # "velocidade" de movimentação do dragão (decremento da posição do cenário)
 var gravity = 1.5 # "força gravidade", incremento na posição em y para puxar o dragão para baixo
 
 # executa essa função ao carregar o jogo
