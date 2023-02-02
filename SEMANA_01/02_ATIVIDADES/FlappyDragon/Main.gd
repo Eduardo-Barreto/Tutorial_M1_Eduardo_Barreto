@@ -23,6 +23,7 @@ func _process(delta):
 		# movimenta as colunas para colisão
 		$columns.position.x -= 2*velocity
 		if ($columns.position.x) < -550:
+			#TODO: colunas gerando logo no início do código (aumenta pontuacao e pode causar insta gameover)
 			$columns.position.x = rand_range(0, 350) - 50
 			$columns.position.y = rand_range(0, 400) - 200
 		
