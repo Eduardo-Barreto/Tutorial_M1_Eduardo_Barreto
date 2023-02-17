@@ -53,7 +53,6 @@ margin_left = 573.0
 margin_top = 249.0
 margin_right = 771.0
 margin_bottom = 303.0
-text = "1, 2, 3, 4"
 valign = 1
 
 [node name="ShowUserList" type="Button" parent="."]
