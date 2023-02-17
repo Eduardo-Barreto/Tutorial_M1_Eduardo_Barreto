@@ -61,7 +61,6 @@ func _process(_delta):
 			$gameover.hide() # oculta o gameover
 			playing = true # muda o status para "jogando"
 
-			
 
 # executa essa função quando o dragão bate na coluna
 func _on_columns_body_shape_entered(_body_id, _body, _body_shape, local_shape):
