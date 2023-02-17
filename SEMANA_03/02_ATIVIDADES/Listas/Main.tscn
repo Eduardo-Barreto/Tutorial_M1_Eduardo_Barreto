@@ -68,7 +68,8 @@ margin_left = 573.0
 margin_top = 472.0
 margin_right = 771.0
 margin_bottom = 526.0
-text = "1, 2, 3, 4"
+text = "
+"
 valign = 1
 autowrap = true
 
