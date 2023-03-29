@@ -5,16 +5,16 @@
 [ext_resource path="res://scripts/main.gd" type="Script" id=3]
 [ext_resource path="res://assets/Inter-Bold.ttf" type="DynamicFontData" id=4]
 
+[sub_resource type="DynamicFont" id=3]
+size = 80
+font_data = ExtResource( 4 )
+
 [sub_resource type="DynamicFont" id=1]
 size = 50
 font_data = ExtResource( 4 )
 
 [sub_resource type="StyleBoxFlat" id=2]
 bg_color = Color( 0, 0, 0, 0.75 )
-
-[sub_resource type="DynamicFont" id=3]
-size = 80
-font_data = ExtResource( 4 )
 
 [node name="main" type="Node2D"]
 script = ExtResource( 3 )
@@ -48,6 +48,21 @@ scale = Vector2( 0.5, 0.5 )
 [node name="card6" parent="cards" instance=ExtResource( 2 )]
 position = Vector2( 1685, 560 )
 scale = Vector2( 0.5, 0.5 )
+
+[node name="label" type="Label" parent="."]
+margin_left = 288.0
+margin_top = 112.0
+margin_right = 1624.0
+margin_bottom = 311.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 0.3 )
+custom_constants/shadow_offset_x = 5
+custom_constants/shadow_offset_y = 5
+custom_fonts/font = SubResource( 3 )
+text = "Clique em Iniciar sort e analise os passos tomados"
+align = 1
+valign = 1
+autowrap = true
 
 [node name="left_button" type="Polygon2D" parent="."]
 position = Vector2( 670, 890 )

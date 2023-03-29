@@ -1,7 +1,6 @@
 extends Area2D
 
 var number = 0
-var sorted = false
 var initial_y = 560
 var exchange_position = 190
 var unsorted_color = Color(0.984375, 0.800781, 0.378906, 1)
@@ -10,7 +9,6 @@ var tween = Tween.new()
 
 func change_number(new_number):
 	number = new_number
-	sorted = false
 
 	$top_number.text = str(number)
 	$center_number.text = str(number)
