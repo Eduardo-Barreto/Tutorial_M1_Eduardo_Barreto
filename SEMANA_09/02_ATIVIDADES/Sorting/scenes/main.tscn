@@ -49,11 +49,11 @@ scale = Vector2( 0.5, 0.5 )
 position = Vector2( 1685, 560 )
 scale = Vector2( 0.5, 0.5 )
 
-[node name="label" type="Label" parent="."]
+[node name="instruction" type="Label" parent="."]
 margin_left = 288.0
-margin_top = 112.0
+margin_top = 110.0
 margin_right = 1624.0
-margin_bottom = 311.0
+margin_bottom = 309.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color_shadow = Color( 0, 0, 0, 0.3 )
 custom_constants/shadow_offset_x = 5
