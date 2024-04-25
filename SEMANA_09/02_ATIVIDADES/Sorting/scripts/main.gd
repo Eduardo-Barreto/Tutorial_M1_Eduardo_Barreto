@@ -43,7 +43,6 @@ func start_sort():
 	sorting = true
 	hide_buttons()
 	sort_method = sorting_methods[randi() % len(sorting_methods)]
-	sort_method = 'bubble_sort'
 	call(sort_method)
 
 
